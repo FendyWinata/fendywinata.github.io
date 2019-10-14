@@ -209,6 +209,7 @@ fieldset {
   resize: none;
 }
 
+#sending input[type="text"],
 #sending textarea {
   width: 100%;
   border: 1px solid #ccc;
