@@ -175,6 +175,15 @@ a:hover {
   color: #824027;
 }
 
+/* Send Email */
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 #sending input[type="text"],
 #sending textarea,
 #sending button[type="submit"] {
@@ -198,6 +207,14 @@ fieldset {
   height: 100px;
   max-width: 100%;
   resize: none;
+}
+
+#sending textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
 }
 
 #sending button[type="submit"] {
