@@ -182,10 +182,8 @@ a:hover {
 }
 
 #sending {
-  background: #f9f9f9;
   padding: 25px;
   margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 fieldset {
@@ -194,4 +192,43 @@ fieldset {
   min-width: 100%;
   padding: 0;
   width: 100%;
+}
+
+#sending textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#sending button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#sending input:focus,
+#sending textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
 }
